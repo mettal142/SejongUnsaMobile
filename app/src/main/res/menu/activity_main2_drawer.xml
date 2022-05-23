@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new"
+            android:checkable="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="공지사항" />
+        <item
+            android:id="@+id/nav_myinfo"
+            android:checkable="false"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="내정보 수정" />
+        <item
+            android:id="@+id/nav_mypost"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="내가 쓴 글"
+            android:visible="false" />
+        <item
+            android:id="@+id/message"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="쪽지"
+            android:visible="false" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_grade"
+                android:checkable="false"
+                android:icon="@android:drawable/btn_star_big_off"
+                android:title="평가하기" />
+            <item
+                android:id="@+id/Question"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="도움말"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_logout"
+                android:checkable="false"
+                android:icon="@android:drawable/ic_menu_revert"
+                android:title="로그아웃"
+                android:visible="true" />
+        </menu>
+    </item>
+
+</menu>

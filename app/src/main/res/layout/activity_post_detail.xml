@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 타이틀바 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#2277ff"
+        >
+
+        <ImageButton
+            android:id="@+id/BackBT"
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#2277ff"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="53dp"
+            android:gravity="center"
+            android:text="PostDetail"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/contents_postdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginRight="5dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#eeeeee">
+
+        <CheckBox
+            android:id="@+id/CommentUnknown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="익명" />
+
+        <EditText
+            android:id="@+id/CommentPT"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <ImageButton
+            android:id="@+id/CommentBT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:background="#eeeeee"
+            app:srcCompat="@drawable/ic_menu_send" />
+
+    </LinearLayout>
+
+</LinearLayout>

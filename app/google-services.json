@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1080725421077",
+    "firebase_url": "https://unsam-43f7a.firebaseio.com",
+    "project_id": "unsam-43f7a",
+    "storage_bucket": "unsam-43f7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080725421077:android:5ffb7fb987cd0161",
+        "android_client_info": {
+          "package_name": "com.example.dikid.unsa_m"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080725421077-skel97j9v51oai05ltff1ng4ah7grrc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYRMmpH-17QZZPJR5urLDqMKGFHfM1Eok"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
